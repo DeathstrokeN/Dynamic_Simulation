@@ -5,8 +5,8 @@ global ts tf R I m CoM Ai Bp rp Im AE Fv Fs  Xi Xf Z_OFFSET_FIXED_FRAME
     ts = 0.001;
     tf = 10;
     %platform data
-    Xi = [0, 0.0, 2.2, 0, 0, 0]'; %initial pose in base frame 
-    Xf = [0.2, 0.0, 1.8, 0, 0, pi/6]'; %final pose in base frame
+    Xi = [0, 0.0, 1.5, 0, 0, 0]'; %initial pose in base frame 
+    Xf = [0.2, 0.0, 1.8, 0, 0, pi/8]'; %final pose in base frame
     CoM = 0*[8.64, -0.03, 188.53]' * 1e-3;
     m   = 25.73; %kg
     %Inertia kg*m²
